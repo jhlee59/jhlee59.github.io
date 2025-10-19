@@ -855,9 +855,9 @@
   <h1>Component Selection</h1>
 
 <h2 id="motion-sensor">Motion Sensor</h2>
-<p><em>Sensor component selection</em>
-                                                                                                      | 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors|
-  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" data-desc-position="bottom"><img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76"></a></p>
+<pre><code>                                                                                                  | 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors|
+</code></pre>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" data-desc-position="bottom"><img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76"></a></p>
 <ul>
 <li>$3.95/each</li>
 <li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069">Link to product</a></li>
@@ -871,22 +871,47 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td>Expensive</td>
+<td>10cm-250cm range</td>
+<td>15 degree Beam angle</td>
 </tr>
 <tr>
 <td>Compatible with microcontrollers</td>
 <td></td>
 </tr>
 <tr>
-<td></td>
+<td>Somewhat Inexpensive</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc" data-desc-position="bottom"><img width="227" height="165" alt="Screenshot 2025-10-18 at 10 14 58 PM" src="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc"></a> 
-Option 1.<br> HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors <br>$3.95/each<br><a href="[http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)">Link to product</a>                 | * Somewhat expensive <br>* Compatible with microcontrollers<br>*                                               | * <br>*  |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed                                                         |</p>
+<p>| 2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 |
+ <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/10d83e69-833f-41a3-bd82-b04388937ca3" data-desc-position="bottom"><img width="197" height="176" alt="Screenshot 2025-10-18 at 10 45 22 PM" src="https://github.com/user-attachments/assets/10d83e69-833f-41a3-bd82-b04388937ca3"></a></p>
+<ul>
+<li>$3.95/each</li>
+<li><a href="[https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020)">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10cm-250cm range</td>
+<td>Low current</td>
+</tr>
+<tr>
+<td>Compatible with microcontrollers</td>
+<td></td>
+</tr>
+<tr>
+<td>Smaller dimesions than Option 1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
 <p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
 <h3 id="style-2">Style 2</h3>
