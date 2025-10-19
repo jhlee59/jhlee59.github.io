@@ -1,20 +1,21 @@
 ---
-title: Component Selection Example
+title: Component Selection 
 ---
 
-## Examples
+## Motion Senor 
 
 ### Style 1
 
-> This is the example found in the assignment, uses more html
 
-*Table 1: Example component selection*
+*Table 1: Sensor component selection*
 
-**External Clock Module**
+** Motion Senor **
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| <<img width="264" height="204" alt="Screenshot 2025-10-18 at 10 03 07 PM" src="https://github.com/user-attachments/assets/8c4ef75e-b7e0-4131-b145-31ed27f82736" />
+br>Option 1.<br> HC-SR04 Ultrasonic Sonar Distance
+Sensor + 2 x 10K resistors <br>$3.95/each<br>[link to product]([http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069))                 | \* Least expensive[^1]<br>\* Compatible with microcontrollers<br>\*                                               | \* <br>\*  |
 | ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
