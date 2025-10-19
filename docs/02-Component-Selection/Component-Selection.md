@@ -92,3 +92,50 @@ title: Component Selection
 **Choice:** Option 2: MCP6241-E/P
 
 **Rationale:** The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. Plus, it has a through-hole package, making it easier to solder. 
+
+## Voltage Regulator
+All are fixed at 5 V and ~1.5A
+
+1. L7805ABV
+
+<img width="237" height="194" alt="Screenshot 2025-10-19 at 12 36 13 AM" src="https://github.com/user-attachments/assets/2db6bca7-ed57-4424-b685-bc4153c44478" />
+
+
+* $0.59/each
+* [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711)
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| Internal thermal shutdown and short circuit protection  | Inefficient for battery powered designs |
+| Common and Inexpensive     | Dropout voltage (~2V) limitation                   |
+| Through hole mount             |
+1. L7805CV
+   
+<img width="260" height="177" alt="Screenshot 2025-10-19 at 12 37 54 AM" src="https://github.com/user-attachments/assets/652b4838-14f0-4f39-b6db-0202e11fb72b" />
+
+
+* $0.50/each
+* [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| Smaller than Option 1 with same specs     | Poor efficiency at high voltage |
+| Reliable                 | Dropout voltage (~2V) limitation   |
+| Through hole mount             |
+1. UA7805CKCS
+
+<img width="246" height="189" alt="Screenshot 2025-10-19 at 12 38 48 AM" src="https://github.com/user-attachments/assets/f3994d4c-926e-4e62-a82e-a8942eeac753" />
+
+
+* $1.34/each
+* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/UA7805CKCS/521612)
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| Through hole mount              | Linear regulator |
+| Built‑in protection features    | Dropout voltage around ~2 V |
+
+
+**Choice:** Option 1: L7805ABV
+
+**Rationale:** It's the simplest and most reliable. Its thermal performance and protections make it the most balanced and robust option.
