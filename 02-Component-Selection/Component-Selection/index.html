@@ -876,32 +876,11 @@
 <h3 id="style-1">Style 1</h3>
 <p><em>Table 1: Sensor component selection</em></p>
 <p>** Motion Senor **</p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc" data-desc-position="bottom"><img width="227" height="165" alt="Screenshot 2025-10-18 at 10 14 58 PM" src="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc"></a></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Option 1.<br> HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors <br>$3.95/each<br><a href="[http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)">Link to product</a></td>
-<td>* Least expensive <br>* Compatible with microcontrollers<br>*</td>
-<td>* <br>*</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
-</tr>
-</tbody>
-</table>
+<p>| <strong>Solution</strong>                                                                                                                                                                                      | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc" data-desc-position="bottom"><img width="227" height="165" alt="Screenshot 2025-10-18 at 10 14 58 PM" src="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc"></a> 
+Option 1.<br> HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors <br>$3.95/each<br><a href="[http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)">Link to product</a>                 | * Least expensive <br>* Compatible with microcontrollers<br>*                                               | * <br>*  |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed                                                         |</p>
 <p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
 <p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
 <h3 id="style-2">Style 2</h3>
