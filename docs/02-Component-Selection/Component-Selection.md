@@ -44,9 +44,9 @@ title: Component Selection
 | | Low current |
 
 
-**Choice:** Option 2: 
+**Choice:** Option 2: RCWL-1601
 
-**Rationale:** 
+**Rationale:** The RCWL-1601 offers the same range as traditional HC-SR04 sensors while consuming less current and taking up less space. This makes it a better choice. 
 
 ## Op Amp
                                                                   
@@ -60,7 +60,7 @@ title: Component Selection
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Inexpensive                      | 3 Op Amp will go unused  |
-| Through Hole Mount            |                     |
+| Through Hole Mount            | Larger footprint                    |
 
 2. MCP6241-E/P
 
@@ -72,8 +72,8 @@ title: Component Selection
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Small                               | Limited to one Op Amp  |
-| Through hole mount                      |                       |
-|  |
+| Through hole mount                      | Low current                      |
+| Voltage Flexible |
 
 2. IC INVERTER 1CH 1-INP SOT23-5
 
@@ -84,11 +84,11 @@ title: Component Selection
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Small                               | Limited to one Op Amp  |
-|                      | Surface mount                     |
+| Small                               | Doesn't read continuous signals |
+| Cleans up signals                 | Surface mount                     |
   
 
 
-**Choice:** Option 2: 
+**Choice:** Option 2: MCP6241-E/P
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. Plus, it has a through-hole package, making it easier to solder. 
