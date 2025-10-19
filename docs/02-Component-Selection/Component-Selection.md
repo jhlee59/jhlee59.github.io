@@ -5,13 +5,10 @@ title: Component Selection
 ## Motion Sensor 
 
 *Table 1: Sensor component selection*
-
-| **Solution**                                                                                                                                                                                      | 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors
-
-  !<img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" />
-
-* $3.95/each
-* [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+                                                                                                      | 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors|
+|  !<img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" />|
+|* $3.95/each|
+|* [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366|
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
