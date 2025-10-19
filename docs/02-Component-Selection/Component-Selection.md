@@ -27,8 +27,8 @@ title: Component Selection
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 10cm-250cm range                               | Low current  |
-| Compatible with microcontrollers                      |                           |
-| Smaller dimesions than Option 1 |
+| Compatible with microcontrollers          |                           |
+| Smaller dimensions than Option 1 |
 
  3. US-100 Ultrasonic Distance Sensor - 3V or 5V Logic
     
@@ -43,6 +43,11 @@ title: Component Selection
 | Removable back                     | Only Compatible with Arduino or CircuitPython       |
 | | Low current |
 
+
+**Choice:** Option 2: 
+
+**Rationale:** 
+
 ## Op Amp
                                                                   
  1. MCP6004-I/P
@@ -54,21 +59,21 @@ title: Component Selection
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Inexpensive                      |   |
-|             |                     |
-| Through Hole Mount |
+| Inexpensive                      | 3 Op Amp will go unused  |
+| Through Hole Mount            |                     |
 
- 2. MCP6001T-I/OT
+ 2. MCP6241-E/P
 
-<img width="217" height="173" alt="Screenshot 2025-10-18 at 11 22 37 PM" src="https://github.com/user-attachments/assets/1e0549c7-367d-439d-8909-d9095a1af41a" />
+<img width="223" height="210" alt="Screenshot 2025-10-18 at 11 40 01 PM" src="https://github.com/user-attachments/assets/f24bf6f4-cdec-4f86-9a83-eaa9231f7d30" />
 
-* $0.30/each
-* [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020))
+
+* $0.43/each
+* [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249)
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-|                                |   |
-|                       |   Surface Mount                        |
+| Small                               | Limited to one Op Amp  |
+| Through hole mount                      |                       |
 |  |
 
  3. IC INVERTER 1CH 1-INP SOT23-5
@@ -80,28 +85,11 @@ title: Component Selection
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-|                              |  |
-|                      | Surface Mount       |
+| Inexpensive                             | Surface Mount  |
+|                      |       |
 | |  |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: 
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
