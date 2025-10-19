@@ -17,7 +17,7 @@ title: Component Selection
 | Compatible with microcontrollers                      | Weights 8.7g                      |
 | Somewhat Inexpensive |
 
- 2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 
+2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 
 
  <img width="197" height="176" alt="Screenshot 2025-10-18 at 10 45 22 PM" src="https://github.com/user-attachments/assets/10d83e69-833f-41a3-bd82-b04388937ca3" />
 
@@ -30,7 +30,7 @@ title: Component Selection
 | Compatible with microcontrollers          |                           |
 | Smaller dimensions than Option 1 |
 
- 3. US-100 Ultrasonic Distance Sensor - 3V or 5V Logic
+3. US-100 Ultrasonic Distance Sensor - 3V or 5V Logic
     
 <img width="215" height="171" alt="Screenshot 2025-10-18 at 10 58 40 PM" src="https://github.com/user-attachments/assets/fea70a56-564e-4f23-9a41-6030e1f67c79" />
 
@@ -50,7 +50,7 @@ title: Component Selection
 
 ## Op Amp
                                                                   
- 1. MCP6004-I/P
+1. MCP6004-I/P
 
   <img width="224" height="206" alt="Screenshot 2025-10-18 at 11 18 25 PM" src="https://github.com/user-attachments/assets/411ccfcd-c1d0-4ebd-9f79-dc29c23425f6" />
 
@@ -62,10 +62,9 @@ title: Component Selection
 | Inexpensive                      | 3 Op Amp will go unused  |
 | Through Hole Mount            |                     |
 
- 2. MCP6241-E/P
+2. MCP6241-E/P
 
 <img width="223" height="210" alt="Screenshot 2025-10-18 at 11 40 01 PM" src="https://github.com/user-attachments/assets/f24bf6f4-cdec-4f86-9a83-eaa9231f7d30" />
-
 
 * $0.43/each
 * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249)
@@ -76,10 +75,10 @@ title: Component Selection
 | Through hole mount                      |                       |
 |  |
 
- 3. IC INVERTER 1CH 1-INP SOT23-5
+3. IC INVERTER 1CH 1-INP SOT23-5
     
     <img width="238" height="193" alt="Screenshot 2025-10-18 at 11 26 40 PM" src="https://github.com/user-attachments/assets/2f2eeb1e-c7ec-4290-98c9-c1547fd14b60" />
-
+    
 * $0.12/each
 * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G04DBVR/385716)
 
