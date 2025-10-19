@@ -1,6 +1,17 @@
 ---
 title: Power Budget
 ---
+Blank
+
+
+
+
+
+
+
+
+
+
 
 ## Overview
 Write a overview of what you did and why you did a Power Budget.
