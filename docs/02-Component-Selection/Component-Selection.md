@@ -75,18 +75,18 @@ title: Component Selection
 | Through hole mount                      |                       |
 |  |
 
-3. IC INVERTER 1CH 1-INP SOT23-5
-    
-    <img width="238" height="193" alt="Screenshot 2025-10-18 at 11 26 40 PM" src="https://github.com/user-attachments/assets/2f2eeb1e-c7ec-4290-98c9-c1547fd14b60" />
-    
+2. IC INVERTER 1CH 1-INP SOT23-5
+
+<img width="227" height="197" alt="Screenshot 2025-10-18 at 11 54 52 PM" src="https://github.com/user-attachments/assets/cd62fe10-ee8d-4051-99b4-483da2ef4aa9" />
+
 * $0.12/each
 * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G04DBVR/385716)
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Inexpensive                             | Surface Mount  |
-|                      |       |
-| |  |
+| Small                               | Limited to one Op Amp  |
+|                      | Surface mount                     |
+  
 
 
 **Choice:** Option 2: 
