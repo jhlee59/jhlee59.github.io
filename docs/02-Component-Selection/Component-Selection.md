@@ -18,6 +18,7 @@ title: Component Selection
 | Somewhat Inexpensive |
 
 | 2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 |
+
  <img width="197" height="176" alt="Screenshot 2025-10-18 at 10 45 22 PM" src="https://github.com/user-attachments/assets/10d83e69-833f-41a3-bd82-b04388937ca3" />
 
 * $3.95/each
