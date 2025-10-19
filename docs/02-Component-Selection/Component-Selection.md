@@ -3,8 +3,6 @@ title: Component Selection
 ---
 
 ## Motion Sensor 
-
-*Sensor component selection*
                                                                                                       | 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors|
   <img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" />
 
@@ -13,13 +11,21 @@ title: Component Selection
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-|                                | Expensive  |
+| 10cm-250cm range                               | 15 degree Beam angle  |
 | Compatible with microcontrollers                      |                                         |
-|  |
+| Somewhat Inexpensive |
 
-| <img width="227" height="165" alt="Screenshot 2025-10-18 at 10 14 58 PM" src="https://github.com/user-attachments/assets/998a6734-bea9-4854-819e-57fa030f43fc" /> 
-Option 1.<br> HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors <br>$3.95/each<br>[Link to product]([http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069))                 | \* Somewhat expensive <br>\* Compatible with microcontrollers<br>\*                                               | \* <br>\*  |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| 2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 |
+ <img width="197" height="176" alt="Screenshot 2025-10-18 at 10 45 22 PM" src="https://github.com/user-attachments/assets/10d83e69-833f-41a3-bd82-b04388937ca3" />
+
+* $3.95/each
+* [Link to product]([https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020))
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| 10cm-250cm range                               | Low current  |
+| Compatible with microcontrollers                      |                           |
+| Smaller dimesions than Option 1 |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
