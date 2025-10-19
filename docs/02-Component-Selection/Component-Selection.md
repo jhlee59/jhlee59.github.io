@@ -41,8 +41,48 @@ title: Component Selection
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 10cm-250cm range                               | Lightly more expensive  |
 | Removable back                     | Only Compatible with Arduino or CircuitPython       |
-| Smaller dimensions than Option 1 | Low current |
+| | Low current |
 
+## Op Amp
+                                                                  
+ 1. MCP6004-I/P
+
+  <img width="224" height="206" alt="Screenshot 2025-10-18 at 11 18 25 PM" src="https://github.com/user-attachments/assets/411ccfcd-c1d0-4ebd-9f79-dc29c23425f6" />
+
+* $0.59/each
+* [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| Inexpensive                      |   |
+|             |                     |
+| Through Hole Mount |
+
+ 2. MCP6001T-I/OT
+
+<img width="217" height="173" alt="Screenshot 2025-10-18 at 11 22 37 PM" src="https://github.com/user-attachments/assets/1e0549c7-367d-439d-8909-d9095a1af41a" />
+
+* $0.30/each
+* [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020))
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+|                                |   |
+|                       |   Surface Mount                        |
+|  |
+
+ 3. IC INVERTER 1CH 1-INP SOT23-5
+    
+    <img width="238" height="193" alt="Screenshot 2025-10-18 at 11 26 40 PM" src="https://github.com/user-attachments/assets/2f2eeb1e-c7ec-4290-98c9-c1547fd14b60" />
+
+* $0.12/each
+* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G04DBVR/385716)
+
+| Pros                                      | Cons                                                             |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+|                              |  |
+|                      | Surface Mount       |
+| |  |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
