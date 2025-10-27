@@ -3,13 +3,13 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+I listed my major components and made sure there wasn't an overload. 
 
 <img width="529" height="723" alt="Screenshot 2025-10-27 at 2 18 37 AM" src="https://github.com/user-attachments/assets/86d0caec-501f-4204-a8e3-01b74d828cd1" />
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+From the prepare Power Budget, I can see 
 
 ## Resouces
 
