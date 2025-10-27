@@ -7,7 +7,9 @@ Write a overview of what you did and why you did a Power Budget.
 
 
 ## Conclusions
-<img width="528" height="723" alt="Screenshot 2025-10-27 at 2 09 43 AM" src="https://github.com/user-attachments/assets/e5b22992-01f8-4399-801d-2a76aefe2bf6" />
+
+
+<img width="529" height="723" alt="Screenshot 2025-10-27 at 2 18 37 AM" src="https://github.com/user-attachments/assets/86d0caec-501f-4204-a8e3-01b74d828cd1" />
 
 
 From the prepare Power Budget, .....
