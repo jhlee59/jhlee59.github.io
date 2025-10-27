@@ -7,28 +7,22 @@ tags:
 <center>
 <font size= "6">Hattie Lee Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Trash Canner</font><br>
 for<br>
 <font size= "5"> Team 207 </font><br>
 
-**Submission: 09, 03, 2025**
+**Submission: 10, 27, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+This datasheet documents my individual contribution to the Trash Canner Project. It includes the following: my block diagram, component selection, bill of materials, schematic, and power budget.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
-
+The Trash Canner Project is an automatic trash can design featuring weight and motion sensors. Through the process of benchmarking and drafting, our team identified these features as the most effective and feasible. For a more in depth look into Trash Canner, the team's documentation is available [here](https://asu-egr304-2025-f-207.github.io/). Both the weight and motion sensors are linked to LEDs, providing a clear visual alert to the user when the trash needs to be taken out. The primary objective is to assist the user in their daily lives by simplifying a chore. 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+My contribution was to design the motion sensor system that triggers the lid to open without using a pedal or any other manual way. This system uses a motion or ultrasonic sensor to detect the user. Once the user is detected, my system sends a signal to another system's  microcontroller, which then sends information to a motor and an LED. This causes the lid to open and then close after a short time (see the block diagram and schematic for details). I had to select all the necessary parts for this sensor system, as detailed in the component list. 
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
