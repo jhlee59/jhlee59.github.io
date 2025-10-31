@@ -2,6 +2,9 @@
 title: Component Selection 
 ---
 
+I chose ... because 
+
+
 ## Motion Sensor 
                                                                   
  1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors
