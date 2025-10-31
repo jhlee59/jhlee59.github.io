@@ -20,7 +20,7 @@ This datasheet documents my individual contribution to the Trash Canner Project.
 
 ### Project Summary
 
-The Trash Canner Project is an automatic trash can design featuring weight and motion sensors. Through the process of benchmarking and drafting, our team identified these features as the most effective and feasible. For a more in depth look into Trash Canner, the team's documentation is available [here](https://asu-egr304-2025-f-207.github.io/). Both the weight and motion sensors are linked to LEDs, providing a clear visual alert to the user when the trash needs to be taken out. The primary objective is to assist the user in their daily lives by simplifying a chore. 
+The Trash Canner Project is an automatic trash can design featuring weight and motion sensors. Through the process of benchmarking and drafting, our team identified these features as the most effective and feasible. For a more in depth look into Trash Canner, the team's documentation is available [here](https://asu-egr304-2025-f-207.github.io/). The weight sensors are linked to LEDs, providing a clear visual alert to the user when the trash needs to be taken out. The primary objective is to assist the buyer in their daily lives by simplifying a chore. 
 
 ### My Contribution
 
