@@ -7,7 +7,7 @@ tags:
 
 
 ## Overview
-This Bill of Materials (BOM) supports a custom microcontroller-based ultrasonic sensing system designed around the PIC18F57Q43. The circuit measures distance using an HC-SR04 ultrasonic sensor, amplifies and conditions signals with a Microchip MCP6241 op amp, and regulates power through an STMicroelectronics L7805ABV 5 V linear regulator. A 74HC595 shift register manages serial-to-parallel data control, while standard resistors and capacitors provide biasing, filtering, and power stability. All components are readily available through Digi-Key and are suitable for prototyping or small-scale production.
+This Bill of Materials (BOM) supports a custom microcontroller-based ultrasonic sensing system designed around the PIC18F57Q43. The circuit measures distance using an HC-SR04 ultrasonic sensor, amplifies and conditions signals with a Microchip MCP6241 op amp, and regulates power through an L7805ABV 5 V linear regulator. A 74HC595 shift register manages serial-to-parallel data control, while standard resistors and capacitors provide biasing, filtering, and power stability. All components are readily available through Digi-Key and are suitable for prototyping or small-scale production.
 
 
 ## Bill of Materials 
