@@ -111,7 +111,8 @@ All are fixed at 5 V and ~1.5A
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Internal thermal shutdown and short circuit protection  | Inefficient for battery powered designs |
 | Common and Inexpensive     | Dropout voltage (~2V) limitation                   |
-| Through hole mount             |
+| Through hole mount             |           |
+
 1. L7805CV
    
 <img width="260" height="177" alt="Screenshot 2025-10-19 at 12 37 54 AM" src="https://github.com/user-attachments/assets/652b4838-14f0-4f39-b6db-0202e11fb72b" />
