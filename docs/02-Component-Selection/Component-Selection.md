@@ -2,7 +2,8 @@
 title: Component Selection 
 ---
 
-I chose ... because 
+I chose the RCWL-1601 ultrasonic distance sensor because it offers the same range as the HC-SR04 while being smaller and more energy-efficient, making it ideal for compact, low-power designs. For the op amp, I selected the MCP6241-E/P since it provides a single amplifier in a through-hole package, reducing unnecessary components and saving board space while remaining easy to solder and versatile in voltage compatibility. Lastly, I chose the L7805ABV voltage regulator because it delivers a stable 5V output with built-in thermal and short-circuit protection, ensuring reliable and safe operation; its simplicity, durability, and proven performance make it the most balanced choice for my project.
+
 
 
 ## Motion Sensor 
@@ -78,7 +79,7 @@ I chose ... because
 | Through hole mount                      | Low current                      |
 | Voltage Flexible |
 
-2. IC INVERTER 1CH 1-INP SOT23-5
+3. IC INVERTER 1CH 1-INP SOT23-5
 
 <img width="227" height="197" alt="Screenshot 2025-10-18 at 11 54 52 PM" src="https://github.com/user-attachments/assets/cd62fe10-ee8d-4051-99b4-483da2ef4aa9" />
 
@@ -113,7 +114,7 @@ All are fixed at 5 V and ~1.5A
 | Common and Inexpensive     | Dropout voltage (~2V) limitation                   |
 | Through hole mount             |           |
 
-1. L7805CV
+2. L7805CV
    
 <img width="260" height="177" alt="Screenshot 2025-10-19 at 12 37 54 AM" src="https://github.com/user-attachments/assets/652b4838-14f0-4f39-b6db-0202e11fb72b" />
 
@@ -125,8 +126,9 @@ All are fixed at 5 V and ~1.5A
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Smaller than Option 1 with same specs     | Poor efficiency at high voltage |
 | Reliable                 | Dropout voltage (~2V) limitation   |
-| Through hole mount             |
-1. UA7805CKCS
+| Through hole mount             | Through hole mount             |
+
+3. UA7805CKCS
 
 <img width="246" height="189" alt="Screenshot 2025-10-19 at 12 38 48 AM" src="https://github.com/user-attachments/assets/f3994d4c-926e-4e62-a82e-a8942eeac753" />
 
