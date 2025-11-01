@@ -603,18 +603,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials Example (as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials Example (as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -818,18 +809,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials Example (as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials Example (as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -860,11 +842,9 @@
 
   <h1>Bill of Materials</h1>
 
-<p>TBD</p>
 <h2 id="overview">Overview</h2>
-<p>written context</p>
-<h2 id="bill-of-materials-example-as-table">Bill of Materials Example (as Table)</h2>
-<p><em>Table ##: An example of one approach to adding your BOM table to this section.</em></p>
+<p>This Bill of Materials (BOM) supports a custom microcontroller-based ultrasonic sensing system designed around the PIC18F57Q43. The circuit measures distance using an HC-SR04 ultrasonic sensor, amplifies and conditions signals with a Microchip MCP6241 op amp, and regulates power through an STMicroelectronics L7805ABV 5 V linear regulator. A 74HC595 shift register manages serial-to-parallel data control, while standard resistors and capacitors provide biasing, filtering, and power stability. All components are readily available through Digi-Key and are suitable for prototyping or small-scale production.</p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
 <table>
 <thead>
 <tr>
@@ -904,14 +884,82 @@
 </tr>
 </tbody>
 </table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Part Name/Description</strong></th>
+<th style="text-align: left;"><strong>Qty</strong></th>
+<th style="text-align: left;"><strong>Unit Cost</strong></th>
+<th style="text-align: left;"><strong>Total Cost</strong></th>
+<th style="text-align: left;"><strong>Manufacture</strong></th>
+<th style="text-align: left;"><strong>Manufacturer #</strong></th>
+<th style="text-align: left;"><strong>Vendor Link</strong></th>
+<th style="text-align: left;"><strong>Datasheet Link</strong></th>
+<th style="text-align: left;"><strong>Schematic Reference Designators</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Ultrasonic Sensor Module (HC-SR04)</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">$3.95</td>
+<td style="text-align: left;">$3.95</td>
+<td style="text-align: left;">Adafruit Industries LLC</td>
+<td style="text-align: left;">4007</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://cdn-learn.adafruit.com/downloads/pdf/ultrasonic-sonar-distance-sensors.pdf">Datasheet</a></td>
+<td style="text-align: left;">U10</td>
+</tr>
+<tr>
+<td style="text-align: left;">Op Amp, Single, Rail-to-Rail, 5 V, DIP-8</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">$0.43</td>
+<td style="text-align: left;">$0.43</td>
+<td style="text-align: left;">Microchip Technology</td>
+<td style="text-align: left;">MCP6241-E/P</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/21969b.pdf">Datasheet</a></td>
+<td style="text-align: left;">U3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Linear Voltage Regulator, 5 V, 1.5 A, TO-220</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">$0.59</td>
+<td style="text-align: left;">$0.59</td>
+<td style="text-align: left;">STMicroelectronics</td>
+<td style="text-align: left;">L7805ABV</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://www.st.com/resource/en/datasheet/l7805.pdf">Datasheet</a></td>
+<td style="text-align: left;">U5</td>
+</tr>
+<tr>
+<td style="text-align: left;">100 Ω Resistor, ¼ W</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-100R</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-100R/398308">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/MFR.pdf">Datasheet</a></td>
+<td style="text-align: left;">R1</td>
+</tr>
+<tr>
+<td style="text-align: left;">10 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.40</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-10K</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-10K/398336">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/MFR.pdf">Datasheet</a></td>
+<td style="text-align: left;">R2, R3, R4, R5</td>
+</tr>
+</tbody>
+</table>
 <p>Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.</p>
 <ul>
 <li>You could also import your BOM via a screenshot of the spreadsheet created BOM</li>
 </ul>
-<h2 id="bill-of-materials-example-as-image">Bill of Materials Example (as Image)</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BOM-Screenshot.png" data-desc-position="bottom"><img _2000_="&quot;2000&quot;" alt="" src="../BOM-Screenshot.png" style="style" width:="width:"></a>
-<strong>Figure 2:</strong> Example Bill of Materials as a screenshot.</p>
-<p>As you can see, the text can be difficult to read without opening the image.</p>
 
 
 
