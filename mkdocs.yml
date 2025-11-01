@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2025 team-name-here"
+copyright: "Copyright &copy; 2025 Trash Canner"
 
 extra:
   generator: false
