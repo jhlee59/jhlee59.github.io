@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -778,6 +783,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Microcontroller Code
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -787,6 +803,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -874,6 +916,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -897,6 +956,13 @@
 
   <h1>Microcontroller Code</h1>
 
+<h2 id="overview">Overview</h2>
+<p>This is the code for the PCB to support two Reflective Optical Sensors. Detecting and reading an analog signal that the Op Amp then amplifies. The microcontroller translates this into a digital signal for two other microcontrollers to read. Two separate signals from two separate sensors to two separate other microcontrollers. Turning a Debug LED on until a signal is sensed and sent.</p>
+<p>To read both sensors: 
+      ADC_ConversionStart();
+      while (!ADC_IsConversionDone()) ;
+were used. </p>
+<p><a href="https://github.com/user-attachments/files/23917806/2sensors.zip">2sensors.zip</a></p>
 
 
 
@@ -904,6 +970,8 @@
 
 
 
+  
+  
 
 
 
