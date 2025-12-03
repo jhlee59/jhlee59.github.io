@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/07-Microcontroller%20Code/Microcontroller%20Code/</loc>
+         <lastmod>2025-12-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/</loc>
          <lastmod>2025-12-03</lastmod>
          <changefreq>daily</changefreq>
