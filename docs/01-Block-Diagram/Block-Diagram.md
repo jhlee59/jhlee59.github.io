@@ -8,7 +8,7 @@ tags:
 ## Overview
 This block diagram shows a motion sensor powered by a 5V, 1.5A voltage regulator, which powers all the components. The motion sensor sends a signal that is filtered by the Op Amp to the microcontroller. The microcontroller reads the sensor through an analog input, and if motion is detected, it sends a digital signal to Riley’s board through pin 2. The board then activates a motor to open the trash can lid. This has changed.
 
-This new block diagram now supports two IR Reflective Optical Sensors, still powered by a 5V, 1.5A voltage regulator, which powers all the components. One of the sensors is constantly detecting for motion while the other sensor is measuring how much depth there is in the trashcan. These signals are filtered by the Op Amp and then sent to the microcontroller, where they are translated into a digital signal. That signal is then sent to two other microcontrollers to open the can or impact an LED scale. 
+This new block diagram now supports two IR Reflective Optical Sensors, still powered by a 5V, 1.5A voltage regulator, which powers all the components. One of the sensors is constantly detecting for motion while the other sensor is measuring how much depth there is in the trashcan. These signals are filtered by the Op Amp and then sent to the microcontroller, where they are translated into a digital signal. That signal is then sent to two other microcontrollers to open the can or impact an LED scale. One to Riley's board and one to Gael's.
 
 
 OLD: 
