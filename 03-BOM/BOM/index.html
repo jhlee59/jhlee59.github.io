@@ -965,7 +965,7 @@
   <h1>Bill of Materials</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This Bill of Materials (BOM) supports a custom microcontroller-based ultrasonic sensing system designed around the PIC18F57Q43. The circuit measures distance using an HC-SR04 ultrasonic sensor, amplifies and conditions signals with a Microchip MCP6241 op amp, and regulates power through an L7805ABV 5 V linear regulator. A 74HC595 shift register manages serial-to-parallel data control, while standard resistors and capacitors provide biasing, filtering, and power stability. All components are readily available through Digi-Key and are suitable for prototyping or small-scale production.</p>
+<p>This Bill of Materials (BOM) supports a custom microcontroller-based emitter and detector sensing system designed around the PIC18F57Q43. The circuit measures distance using two OPB732 sensors, amplifies and conditions signals with a Microchip MCP6004 op amp, and regulates power through an L7805ABV 5 V linear regulator. A L7805ABV shift register manages serial-to-parallel data control, while standard resistors and capacitors provide biasing, filtering, and power stability. All components are readily available through Digi-Key and are suitable for prototyping or small-scale production.</p>
 <h2 id="bill-of-materials">Bill of Materials</h2>
 <table>
 <thead>
@@ -983,26 +983,26 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">Ultrasonic Sensor Module (HC-SR04)</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">$3.95</td>
-<td style="text-align: left;">$3.95</td>
-<td style="text-align: left;">Adafruit Industries LLC</td>
-<td style="text-align: left;">4007</td>
+<td style="text-align: left;">Reflective Emitter and Detector Sensor (OPB732)</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">$4.61</td>
+<td style="text-align: left;">$13.83</td>
+<td style="text-align: left;">TT Electronics/Optek Technology</td>
+<td style="text-align: left;">365-1691-ND</td>
 <td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020">DigiKey</a></td>
-<td style="text-align: left;"><a href="https://cdn-learn.adafruit.com/downloads/pdf/ultrasonic-sonar-distance-sensors.pdf">Datasheet</a></td>
-<td style="text-align: left;">U10</td>
+<td style="text-align: left;"><a href="(https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/OPB732.pdf)">Datasheet</a></td>
+<td style="text-align: left;">U3, U4</td>
 </tr>
 <tr>
-<td style="text-align: left;">Op Amp, Single, Rail-to-Rail, 5 V, DIP-8</td>
+<td style="text-align: left;">Op Amp, Four, Rail-to-Rail, 5 V</td>
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">$0.43</td>
-<td style="text-align: left;">$0.43</td>
+<td style="text-align: left;">$0.59</td>
+<td style="text-align: left;">$0.59</td>
 <td style="text-align: left;">Microchip Technology</td>
-<td style="text-align: left;">MCP6241-E/P</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249">DigiKey</a></td>
+<td style="text-align: left;">MCP6004-I/P</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">DigiKey</a></td>
 <td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/21969b.pdf">Datasheet</a></td>
-<td style="text-align: left;">U3</td>
+<td style="text-align: left;">MCP6004_OPAMP1</td>
 </tr>
 <tr>
 <td style="text-align: left;">Linear Voltage Regulator, 5 V, 1.5 A, TO-220</td>
@@ -1013,29 +1013,73 @@
 <td style="text-align: left;">L7805ABV</td>
 <td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711">DigiKey</a></td>
 <td style="text-align: left;"><a href="https://www.st.com/resource/en/datasheet/l7805.pdf">Datasheet</a></td>
-<td style="text-align: left;">U5</td>
+<td style="text-align: left;">U2</td>
 </tr>
 <tr>
-<td style="text-align: left;">100 Ω Resistor, ¼ W</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">$0.10</td>
-<td style="text-align: left;">$0.10</td>
-<td style="text-align: left;">Yageo</td>
-<td style="text-align: left;">MFR-25FBF52-100R</td>
-<td style="text-align: left;">PRLTA 109</td>
-<td style="text-align: left;">n/a</td>
-<td style="text-align: left;">R1</td>
-</tr>
-<tr>
-<td style="text-align: left;">10 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">100 kΩ Resistor, ¼ W</td>
 <td style="text-align: left;">4</td>
 <td style="text-align: left;">$0.10</td>
 <td style="text-align: left;">$0.40</td>
 <td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-100K</td>
+<td style="text-align: left;">PRLTA 109</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">R8, R10, R17, R18</td>
+</tr>
+<tr>
+<td style="text-align: left;">10 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.30</td>
+<td style="text-align: left;">Yageo</td>
 <td style="text-align: left;">MFR-25FBF52-10K</td>
 <td style="text-align: left;">PRLTA 109</td>
 <td style="text-align: left;">n/a</td>
-<td style="text-align: left;">R2, R3, R4, R5</td>
+<td style="text-align: left;">R5, R7, R16</td>
+</tr>
+<tr>
+<td style="text-align: left;">2 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.40</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-2K</td>
+<td style="text-align: left;">PRLTA 109</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">R1, R2, R13, R14</td>
+</tr>
+<tr>
+<td style="text-align: left;">1 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.30</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-1K</td>
+<td style="text-align: left;">PRLTA 109</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">R3, R4, R15</td>
+</tr>
+<tr>
+<td style="text-align: left;">220 kΩ Resistor, ¼ W</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.40</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-220K</td>
+<td style="text-align: left;">PRLTA 109</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">R11, R12, R19, R20</td>
+</tr>
+<tr>
+<td style="text-align: left;">220 Ω Resistor, ¼ W</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">$0.10</td>
+<td style="text-align: left;">$0.20</td>
+<td style="text-align: left;">Yageo</td>
+<td style="text-align: left;">MFR-25FBF52-220K</td>
+<td style="text-align: left;">PRLTA 109</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">R6, R9</td>
 </tr>
 <tr>
 <td style="text-align: left;">0.1 µF Ceramic Capacitor, ±10%, X7R, 50 V, 0805 package</td>
@@ -1046,7 +1090,7 @@
 <td style="text-align: left;">C0805F104K5RACTU</td>
 <td style="text-align: left;">PRLTA 109</td>
 <td style="text-align: left;">n/a</td>
-<td style="text-align: left;">C1, C2, C3</td>
+<td style="text-align: left;">C1, C2, C3, C4, C5</td>
 </tr>
 </tbody>
 </table>
