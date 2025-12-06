@@ -2,23 +2,24 @@
 title: Component Selection 
 ---
 
-I chose the RCWL-1601 ultrasonic distance sensor, MCP6241-E/P operational amplifier, and L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that improves convenience and durability. The RCWL-1601 provides accurate motion detection, allowing the lid to open smoothly and quickly when a user approaches. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.
+I chose the OPB732 Reflector Emitter and Detector, the MCP6241-E/P operational amplifier, and the L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that enhances convenience and durability. The OPB732 provides accurate distance detection, allowing the lid to open smoothly and quickly when a user approaches. Additionally, alert the user when the trash is full. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.
 
 
 ## Motion Sensor 
                                                                   
- 1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors
+ 1. OPB732 Emitter and Detector Reflective Optical Sensor 3"
 
-  <img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" />
+ <img width="234" height="212" alt="Screenshot 2025-12-06 at 3 20 42 PM" src="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab" />
 
-* $3.95/each
-* [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
+
+* $4.61/each
+* [Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069)
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| 10cm-250cm range                               | 15 degree Beam angle  |
-| Compatible with microcontrollers                      | Weights 8.7g                      |
-| Somewhat Inexpensive |
+| Doesn't have a daughter board                      | Single Beam range  |
+| Compatible with microcontrollers                 |                       |
+| Inexpensive |
 
 2. Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601 
 
@@ -30,7 +31,7 @@ I chose the RCWL-1601 ultrasonic distance sensor, MCP6241-E/P operational amplif
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 10cm-250cm range                               | Low current  |
-| Compatible with microcontrollers          |                           |
+| Compatible with microcontrollers          |  Has a daughter board              |
 | Smaller dimensions than Option 1 |
 
 3. US-100 Ultrasonic Distance Sensor - 3V or 5V Logic
@@ -42,14 +43,14 @@ I chose the RCWL-1601 ultrasonic distance sensor, MCP6241-E/P operational amplif
 
 | Pros                                      | Cons                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| 10cm-250cm range                               | Lightly more expensive  |
+| 10cm-250cm range                               | has a daughter board  |
 | Removable back                     | Only Compatible with Arduino or CircuitPython       |
 | | Low current |
 
 
-**Choice:** Option 2: RCWL-1601
+**Choice:** Option 1: OPB732
 
-**Rationale:** The RCWL-1601 offers the same range as traditional HC-SR04 sensors while consuming less current and taking up less space. This makes it a better choice. 
+**Rationale:** The OPB732 is the best choice because it is the simplest Emitter and detector with which I have experience, and it doesn't have a daughter board connected. 
 
 ## Op Amp
                                                                   
@@ -92,9 +93,9 @@ I chose the RCWL-1601 ultrasonic distance sensor, MCP6241-E/P operational amplif
   
 
 
-**Choice:** Option 2: MCP6241-E/P
+**Choice:** Option 1: MCP6004-I/P
 
-**Rationale:** The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. Plus, it has a through-hole package, making it easier to solder. 
+**Rationale:** The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. However, I need two op-amps, so the MCP6004 is the better choice. Additionally, I have prior experience and knowledge with the MCP6004. 
 
 ## Voltage Regulator
 All are fixed at 5 V and ~1.5A
