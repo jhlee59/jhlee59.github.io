@@ -916,15 +916,15 @@
 
   <h1>Component Selection</h1>
 
-<p>I chose the RCWL-1601 ultrasonic distance sensor, MCP6241-E/P operational amplifier, and L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that improves convenience and durability. The RCWL-1601 provides accurate motion detection, allowing the lid to open smoothly and quickly when a user approaches. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.</p>
+<p>I chose the OPB732 Reflector Emitter and Detector, the MCP6241-E/P operational amplifier, and the L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that enhances convenience and durability. The OPB732 provides accurate distance detection, allowing the lid to open smoothly and quickly when a user approaches. Additionally, alert the user when the trash is full. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.</p>
 <h2 id="motion-sensor">Motion Sensor</h2>
 <ol>
-<li>HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors</li>
+<li>OPB732 Emitter and Detector Reflective Optical Sensor 3"</li>
 </ol>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76" data-desc-position="bottom"><img width="211" height="150" alt="Screenshot 2025-10-18 at 10 27 26 PM" src="https://github.com/user-attachments/assets/7abf2537-c9ea-4a8d-bb97-12026be9bb76"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab" data-desc-position="bottom"><img width="234" height="212" alt="Screenshot 2025-12-06 at 3 20 42 PM" src="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab"></a></p>
 <ul>
-<li>$3.95/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069">Link to product</a></li>
+<li>$4.61/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">Link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -935,15 +935,15 @@
 </thead>
 <tbody>
 <tr>
-<td>10cm-250cm range</td>
-<td>15 degree Beam angle</td>
+<td>Doesn't have a daughter board</td>
+<td>Single Beam range</td>
 </tr>
 <tr>
 <td>Compatible with microcontrollers</td>
-<td>Weights 8.7g</td>
+<td></td>
 </tr>
 <tr>
-<td>Somewhat Inexpensive</td>
+<td>Inexpensive</td>
 <td></td>
 </tr>
 </tbody>
@@ -970,7 +970,7 @@
 </tr>
 <tr>
 <td>Compatible with microcontrollers</td>
-<td></td>
+<td>Has a daughter board</td>
 </tr>
 <tr>
 <td>Smaller dimensions than Option 1</td>
@@ -996,7 +996,7 @@
 <tbody>
 <tr>
 <td>10cm-250cm range</td>
-<td>Lightly more expensive</td>
+<td>has a daughter board</td>
 </tr>
 <tr>
 <td>Removable back</td>
@@ -1008,8 +1008,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: RCWL-1601</p>
-<p><strong>Rationale:</strong> The RCWL-1601 offers the same range as traditional HC-SR04 sensors while consuming less current and taking up less space. This makes it a better choice. </p>
+<p><strong>Choice:</strong> Option 1: OPB732</p>
+<p><strong>Rationale:</strong> The OPB732 is the best choice because it is the simplest Emitter and detector with which I have experience, and it doesn't have a daughter board connected. </p>
 <h2 id="op-amp">Op Amp</h2>
 <ol>
 <li>MCP6004-I/P</li>
@@ -1093,8 +1093,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: MCP6241-E/P</p>
-<p><strong>Rationale:</strong> The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. Plus, it has a through-hole package, making it easier to solder. </p>
+<p><strong>Choice:</strong> Option 1: MCP6004-I/P</p>
+<p><strong>Rationale:</strong> The MCP6241 features only one op amp in the package, eliminating unnecessary components and minimizing PCB space. However, I need two op-amps, so the MCP6004 is the better choice. Additionally, I have prior experience and knowledge with the MCP6004. </p>
 <h2 id="voltage-regulator">Voltage Regulator</h2>
 <p>All are fixed at 5 V and ~1.5A</p>
 <ol>
