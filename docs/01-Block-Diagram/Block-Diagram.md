@@ -17,6 +17,10 @@ OLD:
 NEW:
 <img width="1025" height="839" alt="Screenshot 2025-12-06 at 4 25 53 PM" src="https://github.com/user-attachments/assets/51301842-99ce-4d27-a5ff-eab36bee9b09" />
 
+
+PDF available [here](https://github.com/user-attachments/files/24003773/Lee_IND_BLOCK.drawio.pdf)
+
+
 ## Connection Table
 
 | Pin | From                 | To                    | Type            | Description |
@@ -31,5 +35,5 @@ NEW:
 | 8   | Ground                | Ground                 | Ground           | Ground      |
 
 
-PDF available [here](https://github.com/user-attachments/files/24003773/Lee_IND_BLOCK.drawio.pdf)
+
 
