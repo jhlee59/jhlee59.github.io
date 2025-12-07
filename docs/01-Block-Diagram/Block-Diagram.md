@@ -17,17 +17,19 @@ OLD:
 NEW:
 <img width="1025" height="839" alt="Screenshot 2025-12-06 at 4 25 53 PM" src="https://github.com/user-attachments/assets/51301842-99ce-4d27-a5ff-eab36bee9b09" />
 
-Connection Table
-| Pin | From | To | Type| Description| 
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-| 1 | - | - | - | not used |
-| 2 | Hattie (Me)(RB2) | Riley (RA2) | 0V / 5V Digital |  |
-| 3 | Hattie (Me)(RD3) | Gael (RE0) | 0V / 5V Digital |  |
-| 4 | Gael (RF1) | Alessandro (RC1) | 0V / 5V Digital |  |
-| 5 |  - | - | - | not used |
-| 6 |  - | - | - | not used |
-| 7 |  - | - | - | not used |
-| 8 | Ground | Ground | Ground | Ground |
+## Connection Table
+
+| Pin | From                 | To                    | Type            | Description |
+|-----|-----------------------|------------------------|------------------|-------------|
+| 1   | -                     | -                      | -                | not used    |
+| 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  |             |
+| 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  |             |
+| 4   | Gael (RF1)            | Alessandro (RC1)       | 0V / 5V Digital  |             |
+| 5   | -                     | -                      | -                | not used    |
+| 6   | -                     | -                      | -                | not used    |
+| 7   | -                     | -                      | -                | not used    |
+| 8   | Ground                | Ground                 | Ground           | Ground      |
+
 
 PDF available [here](https://github.com/user-attachments/files/24003773/Lee_IND_BLOCK.drawio.pdf)
 
