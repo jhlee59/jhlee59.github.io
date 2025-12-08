@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-This datasheet documents my individual contribution to the Trash Canner Project. It includes the following: my block diagram, component selection, bill of materials, schematic, and power budget.
+This datasheet documents my individual contribution to the Trash Canner Project. It includes the following: my Block Diagram, Component Selection, Bill of Materials, Schematic, Power Budget, PCB Design, Microcontroller Code, Hardware V2.0, Resources and Appendix.
 
 ### Project Summary
 
