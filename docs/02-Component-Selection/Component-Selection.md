@@ -4,6 +4,14 @@ title: Component Selection
 
 I chose the OPB732 Reflector Emitter and Detector, the MCP6241-E/P operational amplifier, and the L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that enhances convenience and durability. The OPB732 provides accurate distance detection, allowing the lid to open smoothly and quickly when a user approaches. Additionally, alert the user when the trash is full. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.
 
+## Component Selection Summary Table
+
+| Component Type             | Chosen Part                     | Cost  | Link | Rationale |
+|---------------------------|----------------------------------|-------|------|-----------|
+| **Motion / Distance Sensor** | **OPB732 Reflective Optical Sensor**  <img width="234" height="212" alt="Screenshot 2025-12-06 at 3 20 42 PM" src="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab" />| $4.61 | [Product Page](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069) | The OPB732 is the simplest emitter/detector pair, does not require a daughter board, and is a part I have experience using. |
+| **Op-Amp** | **MCP6004-I/P**  <img width="224" height="206" alt="Screenshot 2025-10-18 at 11 18 25 PM" src="https://github.com/user-attachments/assets/411ccfcd-c1d0-4ebd-9f79-dc29c23425f6" />                | $0.59 | [Product Page](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) | I need two op-amps, and the MCP6004 contains four. I also have prior experience with it, making it a reliable choice. |
+| **Voltage Regulator**     | **L7805ABV**  <img width="237" height="194" alt="Screenshot 2025-10-19 at 12 36 13 AM" src="https://github.com/user-attachments/assets/2db6bca7-ed57-4424-b685-bc4153c44478" />                   | $0.59 | [Product Page](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711) | Provides reliable 5V output with thermal and short-circuit protection, making it the simplest and most robust option. |
+
 
 ## Motion Sensor 
                                                                   
@@ -145,3 +153,17 @@ All are fixed at 5 V and ~1.5A
 **Choice:** Option 1: L7805ABV
 
 **Rationale:** It's the simplest and most reliable. Its thermal performance and protections make it the most balanced and robust option.
+
+## Connection Table
+
+| Pin | From                 | To                    | Type            | Description |
+|-----|-----------------------|------------------------|------------------|-------------|
+| 1   | -                     | -                      | -                | not used    |
+| 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  | Motion            |
+| 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  | Distance            |
+| 4   | Gael (RF1)            | Alessandro (RA2)       | 0V / 5V Digital  | Speaker            |
+| 5   | -                     | -                      | -                | not used    |
+| 6   | -                     | -                      | -                | not used    |
+| 7   | -                     | -                      | -                | not used    |
+| 8   | Ground                | Ground                 | Ground           | Ground      |
+
