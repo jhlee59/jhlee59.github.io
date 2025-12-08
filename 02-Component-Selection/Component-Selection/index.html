@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#motion-sensor" class="md-skip">
+        <a href="#component-selection-summary-table" class="md-skip">
           Skip to content
         </a>
       
@@ -588,6 +588,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#component-selection-summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component Selection Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#motion-sensor" class="md-nav__link">
     <span class="md-ellipsis">
       Motion Sensor
@@ -609,6 +618,15 @@
   <a href="#voltage-regulator" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Regulator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connection-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connection Table
     </span>
   </a>
   
@@ -931,6 +949,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#component-selection-summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component Selection Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#motion-sensor" class="md-nav__link">
     <span class="md-ellipsis">
       Motion Sensor
@@ -952,6 +979,15 @@
   <a href="#voltage-regulator" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Regulator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connection-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connection Table
     </span>
   </a>
   
@@ -983,6 +1019,41 @@
   <h1>Component Selection</h1>
 
 <p>I chose the OPB732 Reflector Emitter and Detector, the MCP6241-E/P operational amplifier, and the L7805ABV voltage regulator because they work together to create a reliable and efficient automatic trash can that enhances convenience and durability. The OPB732 provides accurate distance detection, allowing the lid to open smoothly and quickly when a user approaches. Additionally, alert the user when the trash is full. The MCP6241-E/P op amp improves signal accuracy between the sensor and the microcontroller, ensuring the lid operates consistently without unexpected movement. The L7805ABV voltage regulator supplies a steady 5V output and includes built-in protection against overheating and short circuits, helping the electronics last longer and stay safe. Together, these components make the trash can quiet, dependable, and easy to use while keeping the overall design affordable and practical for everyday households.</p>
+<h2 id="component-selection-summary-table">Component Selection Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>Component Type</th>
+<th>Chosen Part</th>
+<th>Cost</th>
+<th>Link</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Motion / Distance Sensor</strong></td>
+<td><strong>OPB732 Reflective Optical Sensor</strong>  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab" data-desc-position="bottom"><img width="234" height="212" alt="Screenshot 2025-12-06 at 3 20 42 PM" src="https://github.com/user-attachments/assets/9d9367ee-7e05-4ded-8231-4e884adb5bab"></a></td>
+<td>$4.61</td>
+<td><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">Product Page</a></td>
+<td>The OPB732 is the simplest emitter/detector pair, does not require a daughter board, and is a part I have experience using.</td>
+</tr>
+<tr>
+<td><strong>Op-Amp</strong></td>
+<td><strong>MCP6004-I/P</strong>  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/411ccfcd-c1d0-4ebd-9f79-dc29c23425f6" data-desc-position="bottom"><img width="224" height="206" alt="Screenshot 2025-10-18 at 11 18 25 PM" src="https://github.com/user-attachments/assets/411ccfcd-c1d0-4ebd-9f79-dc29c23425f6"></a></td>
+<td>$0.59</td>
+<td><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">Product Page</a></td>
+<td>I need two op-amps, and the MCP6004 contains four. I also have prior experience with it, making it a reliable choice.</td>
+</tr>
+<tr>
+<td><strong>Voltage Regulator</strong></td>
+<td><strong>L7805ABV</strong>  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/2db6bca7-ed57-4424-b685-bc4153c44478" data-desc-position="bottom"><img width="237" height="194" alt="Screenshot 2025-10-19 at 12 36 13 AM" src="https://github.com/user-attachments/assets/2db6bca7-ed57-4424-b685-bc4153c44478"></a></td>
+<td>$0.59</td>
+<td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711">Product Page</a></td>
+<td>Provides reliable 5V output with thermal and short-circuit protection, making it the simplest and most robust option.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="motion-sensor">Motion Sensor</h2>
 <ol>
 <li>OPB732 Emitter and Detector Reflective Optical Sensor 3"</li>
@@ -1251,6 +1322,76 @@
 </table>
 <p><strong>Choice:</strong> Option 1: L7805ABV</p>
 <p><strong>Rationale:</strong> It's the simplest and most reliable. Its thermal performance and protections make it the most balanced and robust option.</p>
+<h2 id="connection-table">Connection Table</h2>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>From</th>
+<th>To</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>not used</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Hattie (Me) (RB2)</td>
+<td>Riley (RA2)</td>
+<td>0V / 5V Digital</td>
+<td>Motion</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hattie (Me) (RD3)</td>
+<td>Gael (RE0)</td>
+<td>0V / 5V Digital</td>
+<td>Distance</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Gael (RF1)</td>
+<td>Alessandro (RA2)</td>
+<td>0V / 5V Digital</td>
+<td>Speaker</td>
+</tr>
+<tr>
+<td>5</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>not used</td>
+</tr>
+<tr>
+<td>6</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>not used</td>
+</tr>
+<tr>
+<td>7</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>not used</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Ground</td>
+<td>Ground</td>
+<td>Ground</td>
+<td>Ground</td>
+</tr>
+</tbody>
+</table>
 
 
 
