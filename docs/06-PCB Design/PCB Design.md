@@ -5,9 +5,12 @@ title: PCB Design
 ## Overview
 
 This PCB design mainly supports two Reflective Optical Sensors. Detecting and reading an analog signals that the Op Amp then amplifies. The microcontroller translates this into a digital signal for two other microcontrollers to read.
+
 <img width="595" height="597" alt="Screenshot 2025-12-08 at 1 19 30 AM" src="https://github.com/user-attachments/assets/6e58599b-d46a-4906-86d6-b8fe18547359" />
+
 Top Copper layer:
 <img width="623" height="619" alt="Screenshot 2025-12-08 at 1 19 44 AM" src="https://github.com/user-attachments/assets/37d431c7-6673-4c5a-b2ff-5442ef31640e" />
+
 Bottom Copper layer:
 <img width="601" height="585" alt="Screenshot 2025-12-08 at 1 19 54 AM" src="https://github.com/user-attachments/assets/bc3bc117-6ee0-4e49-9a9f-8eed2d3f862c" />
 
