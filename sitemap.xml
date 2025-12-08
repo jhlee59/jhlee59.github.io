@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/09-Resources/Resources/</loc>
+         <lastmod>2025-12-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/Appendix/</loc>
          <lastmod>2025-12-08</lastmod>
          <changefreq>daily</changefreq>
