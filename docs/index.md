@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 207 </font><br>
 
-**Submission: 10, 27, 2025**
+**Submission: 12, 8, 2025**
 </center>
 
 ## Introduction
@@ -20,9 +20,11 @@ This datasheet documents my individual contribution to the Trash Canner Project.
 
 ### Project Summary
 
-The Trash Canner Project is an automatic trash can design featuring weight, distance and motion sensors. Through the process of benchmarking and drafting, our team identified these features as the most effective and feasible. For a more in depth look into Trash Canner, the team's documentation is available [here](https://asu-egr304-2025-f-207.github.io/). The weight sensors are linked to LEDs, providing a clear visual alert to the user when the trash needs to be taken out. The primary objective is to assist the buyer in their daily lives by simplifying a chore. 
+The Trash Canner Project is an automatic trash can design featuring weight, distance, and motion sensors. Through the process of benchmarking and drafting, our team identified these features as the most effective and feasible. For a more in depth look into Trash Canner, the team's documentation is available [here](https://asu-egr304-2025-f-207.github.io/). The weight sensors are linked to LEDs, providing a clear visual alert to the user when the trash needs to be taken out. The primary objective is to assist the buyer in their daily lives by simplifying a chore. 
 
 ### My Contribution
 
-My contribution was to design the motion and distance sensor system that triggers the lid to open without using a pedal or any other manual way. This system uses two emitter and detector sensors to detect the user and how full the trash can is. Once the user is detected, my system sends a signal to another system's  microcontroller, which then sends information to a motor. This causes the lid to open and then close after a short time. Then the distance sensor sends a signal to a different microcontroller to inform the buyer if the trash can is full. See in the [block diagram](https://jhlee59.github.io/01-Block-Diagram/Block-Diagram/) and [schematic](https://jhlee59.github.io/04-Schematic/schematic/) for details). I had to select all the necessary parts for this sensor system, as detailed in the [component](https://jhlee59.github.io/02-Component-Selection/Component-Selection/) list. 
+My contribution was to design the motion and distance sensor system that triggers the trash can lid to open without using a pedal or any other manual way. This system utilizes two OPB732 emitter and detector sensors to detect the user and determine the level of trash in the can. Once the user is detected, my system sends a signal to another system’s microcontroller, which then sends information to a motor. This causes the lid to open and then close after a short time. The distance sensor sends a signal to a different microcontroller, informing the buyer when the trash can is full. You can see the full system in the [block diagram](https://jhlee59.github.io/01-Block-Diagram/Block-Diagram/) and the [schematic](https://jhlee59.github.io/04-Schematic/schematic/) for details.
+I had to select all the necessary parts for this sensor system, which are detailed in the [component selection](https://jhlee59.github.io/02-Component-Selection/Component-Selection/) list and [BOM](https://jhlee59.github.io/03-BOM/BOM/). The [power budget](https://jhlee59.github.io/05-Power-Budget/Power-Budget/) ensures that all components, including the sensors, op-amp, and microcontroller, operate safely on the 5V rail from the L7805ABV voltage regulator.
+Currently, both sensors are mounted on a single [PCB](https://jhlee59.github.io/06-PCB%20Design/PCB%20Design/). The [microcontroller code](https://jhlee59.github.io/07-Microcontroller%20Code/Microcontroller%20Code/) reads the signals from the sensors, triggers the motor, and updates the fullness notification for the user. While the current design works well, in the [future](https://jhlee59.github.io/08-Hardware%20V2.0/Hardware%20V2.0/) I would consider separating the sensors onto two PCBs to make wiring simpler and signals cleaner. Additional details about my design process, testing, and references are available in the [resources](https://jhlee59.github.io/09-Resources/Resources/) section, and supporting documents can be found in the [appendix](https://jhlee59.github.io/Appendix/Appendix/).
 
