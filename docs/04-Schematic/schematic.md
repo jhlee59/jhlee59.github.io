@@ -6,9 +6,11 @@ title: Schematic
 
 This schematic is designed to support two Reflective Optical Sensor. Detecting and reading analog signals that the Op Amp then amplifies. The microcontroller translates this into a digital signal for two other microcontrollers to read.
 
-<img width="1342" height="949" alt="Screenshot 2025-11-07 at 2 57 11 PM" src="https://github.com/user-attachments/assets/6b562e0b-d9c4-4afe-ba67-66bce1b548b5" />
+<img width="1346" height="951" alt="Screenshot 2025-12-08 at 12 55 13 AM" src="https://github.com/user-attachments/assets/71b60230-22c8-4ae2-b2a6-8be58e41cbc5" />
+
+
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](https://github.com/user-attachments/files/23435074/IND_Schematic_Final.pdf), and the Zip folder of the project [*here*](https://github.com/user-attachments/files/23435072/Ind_Subsys_FInal.zip).
+The schematic as a PDF download is available [*here*](https://github.com/user-attachments/files/24026917/Final_scha_FR.pdf), and the Zip folder of the project [*here*](https://github.com/user-attachments/files/24026921/304_In_final.zip).
