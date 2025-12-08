@@ -21,6 +21,19 @@ New Block diagram PDF available [here](https://github.com/user-attachments/files
 
 Zipped File of Block Diagram Temple: [here](https://github.com/user-attachments/files/24026617/In_temple.drawio.png.zip)
 
+## Connection Table
+
+| Pin | From                 | To                    | Type            | Description |
+|-----|-----------------------|------------------------|------------------|-------------|
+| 1   | -                     | -                      | -                | not used    |
+| 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  | Motion            |
+| 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  | Distance            |
+| 4   | Gael (RF1)            | Alessandro (RA2)       | 0V / 5V Digital  | Speaker            |
+| 5   | -                     | -                      | -                | not used    |
+| 6   | -                     | -                      | -                | not used    |
+| 7   | -                     | -                      | -                | not used    |
+| 8   | Ground                | Ground                 | Ground           | Ground      |
+
 
 
 
