@@ -28,7 +28,7 @@ PDF available [here](https://github.com/user-attachments/files/24003773/Lee_IND_
 | 1   | -                     | -                      | -                | not used    |
 | 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  | Motion            |
 | 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  | Distance            |
-| 4   | Gael (RF1)            | Alessandro (RC1)       | 0V / 5V Digital  | Speaker            |
+| 4   | Gael (RF1)            | Alessandro (RA2)       | 0V / 5V Digital  | Speaker            |
 | 5   | -                     | -                      | -                | not used    |
 | 6   | -                     | -                      | -                | not used    |
 | 7   | -                     | -                      | -                | not used    |
