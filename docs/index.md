@@ -14,6 +14,8 @@ for<br>
 **Submission: 12, 8, 2025**
 </center>
 
+![IMG_4947](https://github.com/user-attachments/assets/bf518089-10ca-4c1e-86f3-14db712dc9c5)
+
 ## Introduction
 
 This datasheet documents my individual contribution to the Trash Canner Project. It includes the following: my Block Diagram, Component Selection, Bill of Materials, Schematic, Power Budget, PCB Design, Microcontroller Code, Hardware V2.0, Resources and Appendix.
