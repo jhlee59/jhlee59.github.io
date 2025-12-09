@@ -159,11 +159,24 @@ All are fixed at 5 V and ~1.5A
 | Pin | From                 | To                    | Type            | Description |
 |-----|-----------------------|------------------------|------------------|-------------|
 | 1   | -                     | -                      | -                | not used    |
-| 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  | Motion            |
-| 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  | Distance            |
-| 4   | Gael (RF1)            | Alessandro (RA2)       | 0V / 5V Digital  | Speaker            |
+| 2   | Hattie (Me) (RB2)     | Riley (RA2)            | 0V / 5V Digital  | Motion      |
+| 3   | Hattie (Me) (RD3)     | Gael (RE0)             | 0V / 5V Digital  | Distance    |
+| 4   | Gael (RF1)            | Alessandro (RA2)       | 0V / 5V Digital  | Speaker     |
 | 5   | -                     | -                      | -                | not used    |
 | 6   | -                     | -                      | -                | not used    |
 | 7   | -                     | -                      | -                | not used    |
 | 8   | Ground                | Ground                 | Ground           | Ground      |
 
+## MCC Configuration (PIC)
+
+| Module | Function        | Direction              | Pin            | Description       |
+|--------|-----------------|------------------------|----------------|-------------------|
+| UART1  |  RX1            |  input                 |  RF1           | UART input        |
+|        |  TX1            |  output                |  RF0           | UART output       |
+| ADCC   |  ANx            |  input                 |  RA3           | Analog input      |
+|        |  ANx            |  input                 |  RA4           | Analog input      |
+| RESET  | MCLR            |  input                 |  RE3           | Reset             |
+| Pins   | GPIO            |  input                 |  RA1           | Debug Button      | 
+|        | GPIO            |  output                |  RA2           | Debug LED         |
+|        | GPIO            |  output                |  RB2           | Teamate 1 Output  |
+|        | GPIO            |  output                |  RD3           | Teamate 2 Output  |
