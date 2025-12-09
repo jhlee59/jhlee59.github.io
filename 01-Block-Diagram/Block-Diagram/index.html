@@ -1165,9 +1165,9 @@
 <h2 id="overview">Overview</h2>
 <p>This new block diagram now supports two IR Reflective Optical Sensors, still powered by a 5V, 1.5A voltage regulator, which powers all the components. One of the sensors is constantly detecting for motion while the other sensor is measuring how much depth there is in the trashcan. These sensors directly support our product requirements by allowing the can to open only when the user wants to throw garbage away and by detecting when the trash is nearing maximum capacity. These signals are filtered by the Op Amp and then sent to the microcontroller, where they are translated into a digital signal. 
   That signal is then sent to two other microcontrollers to open the can or impact an LED scale—one to Riley's board and one to Gael’s. This satisfies our requirements for automatic lid opening, fullness detection, and notifying the user when the can is full. The updated block diagram represents our current design and hardware layout, reflects our team composition, and incorporates feedback by clearly separating motion sensing and depth sensing into two different sensor paths with two different outputs.</p>
-<p>OLD: 
+<p>Figure 1: OLD Block Diagram 
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7afa1fee-9589-4730-bd32-1db610e3148d" data-desc-position="bottom"><img width="460" height="324" alt="Screenshot 2025-10-27 at 10 54 55 AM" src="https://github.com/user-attachments/assets/7afa1fee-9589-4730-bd32-1db610e3148d"></a></p>
-<p>NEW:
+<p>Figure 2: Final Block Diagram
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/51301842-99ce-4d27-a5ff-eab36bee9b09" data-desc-position="bottom"><img width="1025" height="839" alt="Screenshot 2025-12-06 at 4 25 53 PM" src="https://github.com/user-attachments/assets/51301842-99ce-4d27-a5ff-eab36bee9b09"></a></p>
 <p>New Block diagram PDF available <a href="https://github.com/user-attachments/files/24003773/Lee_IND_BLOCK.drawio.pdf">here</a></p>
 <p>Zipped File of Block Diagram Temple: <a href="https://github.com/user-attachments/files/24026617/In_temple.drawio.png.zip">here</a></p>
