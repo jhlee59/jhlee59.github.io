@@ -10,10 +10,10 @@ tags:
   That signal is then sent to two other microcontrollers to open the can or impact an LED scale—one to Riley's board and one to Gael’s. This satisfies our requirements for automatic lid opening, fullness detection, and notifying the user when the can is full. The updated block diagram represents our current design and hardware layout, reflects our team composition, and incorporates feedback by clearly separating motion sensing and depth sensing into two different sensor paths with two different outputs.
 
 
-OLD: 
+Figure 1: OLD Block Diagram 
 <img width="460" height="324" alt="Screenshot 2025-10-27 at 10 54 55 AM" src="https://github.com/user-attachments/assets/7afa1fee-9589-4730-bd32-1db610e3148d" />
 
-NEW:
+Figure 2: Final Block Diagram
 <img width="1025" height="839" alt="Screenshot 2025-12-06 at 4 25 53 PM" src="https://github.com/user-attachments/assets/51301842-99ce-4d27-a5ff-eab36bee9b09" />
 
 
