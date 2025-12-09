@@ -14,7 +14,11 @@ for<br>
 **Submission: 12, 8, 2025**
 </center>
 
+![IMG_4957](https://github.com/user-attachments/assets/efa1d427-ec33-4def-912d-9f1e3eb54b6b)
+Figure 1: Final Bread Board Design
+
 ![IMG_4947](https://github.com/user-attachments/assets/bf518089-10ca-4c1e-86f3-14db712dc9c5)
+Figure 2: Plain PCB
 
 ## Introduction
 
