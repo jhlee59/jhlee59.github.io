@@ -11,6 +11,7 @@ tags:
 
 
 Figure 1: OLD Block Diagram 
+
 <img width="460" height="324" alt="Screenshot 2025-10-27 at 10 54 55 AM" src="https://github.com/user-attachments/assets/7afa1fee-9589-4730-bd32-1db610e3148d" />
 
 Figure 2: Final Block Diagram
