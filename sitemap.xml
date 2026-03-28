@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03.5%20API/API/</loc>
+         <lastmod>2026-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/04-Schematic/schematic/</loc>
          <lastmod>2026-03-28</lastmod>
          <changefreq>daily</changefreq>
